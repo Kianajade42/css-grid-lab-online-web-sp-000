@@ -9,6 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
+  grid-gap: 5px
 }
 
 .grid-item {
@@ -18,3 +19,9 @@ body {
 }
 
 /* add the .bigItem class */
+.bigItem {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
